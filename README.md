@@ -1,6 +1,6 @@
 # Router Battery Widget
 
-An Android home-screen widget that shows the battery level and session data of an **MTN MiFi U10LS** (ZTE-style `mf93d`) mobile router, without having to log in to the router's admin page every time.
+An Android home-screen widget that shows the battery level and session data of an **MTN MiFi U10LS**, **(though it can easily be ported to support other routers by finding out the data enpoint and replacing in code)** (ZTE-style `mf93d`) mobile router, without having to log in to the router's admin page every time.
 
 ## Background: the Python script
 
