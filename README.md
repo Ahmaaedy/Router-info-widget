@@ -62,7 +62,15 @@ Open the folder in Android Studio and let Gradle sync, then either:
 ```
 
 The APK is at `app/build/outputs/apk/debug/app-debug.apk`.
+#!/usr/bin/env python3
+"""Read the battery level of an MTN MiFi (ZTE-style, mf93d) via its web portal.
 
+## to use logic.py
+    pip install requests
+    export ROUTER_PASSWORD='your-admin-password'   # or you'll be prompted
+    python mtn_battery.py
+    python mtn_battery.py --ip 192.168.0.1 --json
+    
 ## Setup
 
 1. Install the app.
